@@ -1,0 +1,157 @@
+
+.header{
+  width: 100%;
+  height: 50px;
+  background: #00bcD5;
+}
+.infoyy{
+  font-size: 12px;
+  line-height: 25px;
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+}
+.header image{
+  width: 32px;
+  height: 32px;
+  margin-top: 9px;
+}
+
+.saomiao{
+  float: right;
+  margin-right: 10px;
+}
+
+.body{
+  width: 100%;
+  margin-top: 40%;
+}
+.wifi-name{
+ text-align: center;
+ line-height:60px;
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+
+.wifi-mod{
+  width: 110px;
+  height: 110px;
+  background: #999;
+  text-align: center;
+  border-radius: 110px;
+  margin:0 auto;
+}
+
+.wifi{
+  width: 40px;
+  height: 40px;
+  margin: 35px;
+  position: relative;
+  z-index: 9
+  
+}
+
+.wifi-status{
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+}
+.ws-mod{
+  width: 70px;
+  margin: auto;
+  color:#999;
+}
+.ws-in{
+  width: 12px;
+  height:12px;
+  border-radius: 12px;
+  border: 1px solid #999;
+  float: left;
+  margin-top: 17.5px;
+}
+
+.ws-on{
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin: 1px;
+  background: #999;
+}
+
+.css_animation{
+    margin: auto;
+    margin-top: -110px;
+    width: 110px;
+    height:110px;
+    border-radius: 110px;
+    background: #00bcD5;
+
+    transform: scale(0);
+    animation: myfirst 3s;      
+    animation-iteration-count: infinite;
+}
+
+.css_animation2{
+    margin: auto;
+    margin-top: -110px;
+    width: 110px;
+    height:110px;
+    border-radius: 110px;
+    background: #00bcD5;
+
+    transform: scale(0);
+    animation: myfirst 3s; 
+    animation-delay: 0.5s;     
+    animation-iteration-count: infinite;
+}
+
+.css_animation3{
+    margin: auto;
+    margin-top: -110px;
+    width: 110px;
+    height:110px;
+    border-radius: 110px;
+    background: #00bcD5;
+
+    transform: scale(0);
+    animation: myfirst 3s; 
+    animation-delay: 1s;     
+    animation-iteration-count: infinite;
+}
+
+.css_animation4{
+    margin: auto;
+    margin-top: -110px;
+    width: 110px;
+    height:110px;
+    border-radius: 110px;
+    background: #00bcD5;
+
+    transform: scale(0);
+    animation: myfirst 3s; 
+    animation-delay: 1.5s;     
+    animation-iteration-count: infinite;
+}
+
+@keyframes myfirst{
+    to{
+        transform: scale(3);
+        background: rgba(0, 0, 0, 0);
+    }
+}
+
+.login{
+  width: 50px;
+  height: 50px;
+  background: #00bcD5;
+  position: absolute;
+  bottom:20px;
+  right: 20px;
+  border-radius: 3px;
+}
+
+.qrc{
+  width: 32px;
+  height:32px;
+  margin: 9px;
+}

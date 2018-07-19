@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/QRC/qrc",
+    "pages/PZ/pz",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"#fff",
+    "navigationBarBackgroundColor": "#00bcD5",
+    "navigationBarTitleText": "码上WiFi",
+    "navigationBarTextStyle":"#fff"
+  }
+}

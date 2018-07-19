@@ -1,0 +1,27 @@
+<view class='GoWiFi' style='display:block'>
+  <view class='body'>
+    <view class='wifi-name'>
+      <text>{{ssid}}</text>
+    </view>
+    <view class='wifi-mod' bindtap="saomiaoQRC" style='background-color:{{gowifiColor}}'>
+      <image class='wifi' src='{{tapurl}}'></image>
+    </view>
+    <view class='css_animation' style='display:{{successWiFi}}'></view>
+    <view class='css_animation2' style='display:{{successWiFi}}'></view>
+    <view class='css_animation3' style='display:{{successWiFi}}'></view>
+    <view class='css_animation4' style='display:{{successWiFi}}'></view>
+    <view class='wifi-status'>
+      <view class='ws-mod'>
+        <view class='ws-in' style='border-color:{{gowifiColor}}'>
+          <view class='ws-on' style='background-color:{{gowifiColor}}'></view>
+        </view>
+        <text style='color:{{gowifiColor}}'>{{gowifiStatus}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<navigator url="../QRC/qrc?title=navigator" open-type="navigate">
+  <view class='login'>
+        <image class='qrc' src='/pages/images/qrc.png'></image>
+  </view>
+</navigator>

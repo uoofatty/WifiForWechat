@@ -1,0 +1,21 @@
+<!--pages/main/index.wxml-->
+<view class="container-box">
+    <view class="img-box">
+        <image bindtap="previewImg" mode="scaleToFill" src="{{imagePath}}"></image>
+    </view>
+    <form bindsubmit="formSubmit">
+        <view class="input-row">
+            <label>WiFi名称</label>
+            <input name='name' value='' type="text" maxlength="255" placeholder="SSID NAME"/>
+        </view>
+        <view class="input-row">
+            <label>WiFi密码</label>
+            <input name='password' value='' type="text" maxlength="255" placeholder="SSID PASSWORD"/>
+        </view>
+        <button formType="submit" class="mybtn" type="primary">生成WiFi二维码</button>
+    </form>
+</view>
+<view hidden="{{maskHidden}}" class="mask"></view>
+<view class="canvas-box">
+  <canvas  hidden="{{canvasHidden}}" style="width: 686rpx;height: 686rpx;background:#f1f1f1;" canvas-id="mycanvas"/>
+</view>

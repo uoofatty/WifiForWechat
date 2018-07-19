@@ -1,0 +1,38 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.textshadow{
+  -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.2em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2), 0 0 10px rgba(0,0,0,.025);
+}
+
+button{
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:14px;
+  padding-right:14px;
+ 
+  font-size:18px;
+  text-align:center;
+  text-decoration:none;
+  line-height:2.55555556;
+  border-radius:30px;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#fff;
+  background-color: transparent;
+  border:.1vmin solid #fff;
+}
